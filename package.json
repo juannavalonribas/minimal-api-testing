@@ -1,0 +1,21 @@
+{
+  "name": "minimal-api-testing",
+  "description": "Simple showcase of minimal api testing using vitest",
+  "author": "Juan Navalon Ribas",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "engines": {
+    "node": ">=21"
+  },
+  "scripts": {
+    "test": "vitest run --pool=forks",
+    "test-report": "npx vite preview --outDir html"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.4.0"
+  }
+}
